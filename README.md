@@ -6,17 +6,17 @@
 Chat with documents is an advanced Streamlit application designed to extract and analyze text from various document formats, utilizing the powerful capabilities of Google's Generative AI, specifically the Gemini-PRO model. This tool employs a Retrieval-Augmented Generation (RAG) framework to provide highly accurate, context-sensitive responses to user queries, drawing on the content within the uploaded documents. By processing the text of these documents, the application is able to deliver detailed and relevant information, ensuring that users receive precise answers tailored to the specific content they upload. This system enhances the user experience by facilitating efficient and intelligent document-based interactions.
 ## Features
 
-- **Instant Analysis**: Extracts and processes text from uploaded documents to deliver immediate, valuable insights.
-- **Contextual AI Responses**: Leverages Google's Gemini-PRO Generative AI model for delivering accurate and context-aware answers.
+- Instant Analysis : Extracts and processes text from uploaded documents to deliver immediate, valuable insights.
+- Contextual AI Responses : Leverages Google's Gemini-PRO Generative AI model for delivering accurate and context-aware answers.
 
 ## 🌟Lets get started
 
-### Prerequisites
+## Prerequisites
 
 - Google API Key : You need a Google API key to interact with Google's Generative AI models. To obtain your key, visit [Google API Key Setup](https://makersuite.google.com/app/apikey).
 - Streamlit : This application is developed using Streamlit. Make sure Streamlit is installed in your environment to run the application.
 
-```bash
+- bash
 - Installation
 - To install the necessary dependencies, run:
 
@@ -35,7 +35,7 @@ Chat with documents is an advanced Streamlit application designed to extract and
 
 - Ask Questions: After processing the documents, you can ask any question related to their content, and the application will generate an appropriate response.
 
-### Technical Overview
+## Technical Overview
 - Document Processing: Uses PyPDF2 for extracting text from uploaded documents.
 - Text Segmentation: The RecursiveCharacterTextSplitter from LangChain is used to break the extracted text into manageable segments.
 - Vector Store: Implements FAISS to create a searchable vector store from the text chunks.
