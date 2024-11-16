@@ -13,34 +13,34 @@ Chat with documents is an advanced Streamlit application designed to extract and
 
 ### Prerequisites
 
-- **Google API Key**: You need a Google API key to interact with Google's Generative AI models. To obtain your key, visit [Google API Key Setup](https://makersuite.google.com/app/apikey).
-- **Streamlit**: This application is developed using Streamlit. Make sure Streamlit is installed in your environment to run the application.
+- Google API Key : You need a Google API key to interact with Google's Generative AI models. To obtain your key, visit [Google API Key Setup](https://makersuite.google.com/app/apikey).
+- Streamlit : This application is developed using Streamlit. Make sure Streamlit is installed in your environment to run the application.
 
 ```bash
-Installation
-To install the necessary dependencies, run:
+- Installation
+- To install the necessary dependencies, run:
 
-bash
-pip install -r requirements.txt
-How to Use
-Launch the Application: Start the Streamlit app by executing the following command:
+- bash
+- pip install -r requirements.txt
+- How to Use
+- Launch the Application: Start the Streamlit app by executing the following command:
 
-bash
-streamlit run <path_to_script.py>
-Replace <path_to_script.py> with the path to the script file.
+- bash
+- streamlit run <path_to_script.py>
+- Replace <path_to_script.py> with the path to the script file.
 
-Input Your Google API Key: When prompted, securely enter your Google API key. This key allows the application to access Google's Generative AI models.
+- Input Your Google API Key: When prompted, securely enter your Google API key. This key allows the application to access Google's Generative AI models.
 
-Upload Documents: Upload one or more documents. The application will analyze their contents to provide responses based on the text.
+- Upload Documents: Upload one or more documents. The application will analyze their contents to provide responses based on the text.
 
-Ask Questions: After processing the documents, you can ask any question related to their content, and the application will generate an appropriate response.
+- Ask Questions: After processing the documents, you can ask any question related to their content, and the application will generate an appropriate response.
 
-Technical Overview
-Document Processing: Uses PyPDF2 for extracting text from uploaded documents.
-Text Segmentation: The RecursiveCharacterTextSplitter from LangChain is used to break the extracted text into manageable segments.
-Vector Store: Implements FAISS to create a searchable vector store from the text chunks.
-Answer Generation: Uses ChatGoogleGenerativeAI from LangChain to generate responses to user queries, leveraging the context from the uploaded documents.
+### Technical Overview
+- Document Processing: Uses PyPDF2 for extracting text from uploaded documents.
+- Text Segmentation: The RecursiveCharacterTextSplitter from LangChain is used to break the extracted text into manageable segments.
+- Vector Store: Implements FAISS to create a searchable vector store from the text chunks.
+- Answer Generation: Uses ChatGoogleGenerativeAI from LangChain to generate responses to user queries, leveraging the context from the uploaded documents.
 
-App link - https://retrieval-augmented-generation-rag-application.streamlit.app/
+### App link - https://retrieval-augmented-generation-rag-application.streamlit.app/
 
 
