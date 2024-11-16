@@ -41,4 +41,6 @@ Text Segmentation: The RecursiveCharacterTextSplitter from LangChain is used to 
 Vector Store: Implements FAISS to create a searchable vector store from the text chunks.
 Answer Generation: Uses ChatGoogleGenerativeAI from LangChain to generate responses to user queries, leveraging the context from the uploaded documents.
 
+App link - https://retrieval-augmented-generation-rag-application.streamlit.app/
+
 
