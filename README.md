@@ -21,13 +21,11 @@ Installation
 To install the necessary dependencies, run:
 
 bash
-Copy code
 pip install -r requirements.txt
 How to Use
 Launch the Application: Start the Streamlit app by executing the following command:
 
 bash
-Copy code
 streamlit run <path_to_script.py>
 Replace <path_to_script.py> with the path to the script file.
 
